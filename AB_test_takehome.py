@@ -19,8 +19,8 @@ from scipy.stats import (
 )
 from statsmodels.stats.proportion import proportions_ztest
 
-df_user_day = pd.read_csv("takehome_userday_table.csv", parse_dates=["ds"])
-df_user = pd.read_csv("takehome_user_table.csv", parse_dates=["install_date"])
+df_user_day = pd.read_csv("<user_day_fileoath>", parse_dates=["ds"])
+df_user = pd.read_csv("<user table filepath>", parse_dates=["install_date"])
 
 
 
